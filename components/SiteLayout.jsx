@@ -10,7 +10,7 @@ export default function Layout({ children }) {
     <>
       <main className="text-white bg-black min-h-screen w-screen">
         <div className="flex flex-col md:flex-row m-auto">
-          <div className="w-full md:w-1/2 px-8 pt-8 md:py-12 md:pl-20 md:fixed overflow-scroll">
+          <div className="w-full md:w-1/2 xs:px-4 sp:px-8 px-8 pt-8 md:py-12 md:pl-20 md:fixed overflow-scroll">
 
             <h1 className=" text-3xl md:text-5xl lg:text-6xl mt-4 md:mt-0 text-letter font-bold tracking-tight leading-none">
               Samuel Umoren
@@ -154,7 +154,7 @@ export default function Layout({ children }) {
           <div className="w-full md:w-1/2 px-8 md:p-20 md:ml-auto hidden sm:block">{children}</div>
 
           {/* Mobile Screen - Social Media */}
-          <div className="mt-16 flex gap-6 md:hidden pl-8  text-letter">
+          <div className="xs:my-8 sp:mt-16 mt-16 flex gap-6 md:hidden pl-8  text-letter">
 
             <div className="flex mt-2 gap-6">
               <a
