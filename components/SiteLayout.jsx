@@ -10,7 +10,7 @@ export default function Layout({ children }) {
     <>
       <main className="text-white bg-black min-h-screen w-screen">
         <div className="flex flex-col md:flex-row m-auto">
-          <div className="w-full md:w-1/2 px-8 pt-4 md:py-12 md:pl-20 md:fixed overflow-scroll">
+          <div className="w-full md:w-1/2 px-8 pt-8 md:py-12 md:pl-20 md:fixed overflow-scroll">
 
             <h1 className=" text-3xl md:text-5xl lg:text-6xl mt-4 md:mt-0 text-letter font-bold tracking-tight leading-none">
               Samuel Umoren
@@ -64,8 +64,8 @@ export default function Layout({ children }) {
               </ul>
             </div>
 
-            {/* Desktop Screen - Links */}
-            <div className="my-8 mx-auto text-sm uppercase md:hidden text-letter">
+            {/* Mobile Screen - Links */}
+            <div className="mt-12 mx-auto text-sm uppercase md:hidden text-letter">
               <ul>
                 <Link href="https://docs.google.com/document/d/137ZQlLzTkgx0IwvZ_oWWVOv9W0higk1OjKBV5jo4Kgk/edit?usp=sharing"
                   className="border-white"
@@ -153,9 +153,8 @@ export default function Layout({ children }) {
           {/* Desktop Screen only - Work */}
           <div className="w-full md:w-1/2 px-8 md:p-20 md:ml-auto hidden sm:block">{children}</div>
 
-
           {/* Mobile Screen - Social Media */}
-          <div className="mt-12 flex gap-6 md:hidden mb-12 pl-8 absolute bottom-0 text-letter">
+          <div className="mt-16 flex gap-6 md:hidden pl-8  text-letter">
 
             <div className="flex mt-2 gap-6">
               <a
@@ -183,6 +182,7 @@ export default function Layout({ children }) {
               </a>
             </div>
           </div>
+
 
         </div>
       </main>
