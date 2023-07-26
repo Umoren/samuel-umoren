@@ -17,27 +17,25 @@ export default function Layout({ children }) {
             </h1>
             <h3 className="text-lg md:text-2xl font-bold my-4 text-letter">Software Developer - Frontend</h3>
 
-            <p className="my-4 text-normal text-letter/80 md:w-4/5">
+            <p className="my-4 text-normal text-letter/60 md:w-4/5">
 
               <span className="text-bold text-normal text-letter">I'm a Front End Engineer</span> with four years of experience and strong fundamentals in Front End technologies.
             </p>
 
-            <p className="my-4 text-normal text-letter/80 md:w-4/5">
-              I've built products for startups like
-              <Link href={"https://www.linkedin.com/company/jiggleng/"} target="_blank"> <u className="text-blue-300"><i> Jiggle</i></u></Link>,
-              <Link href={"https://mezovest.com"} target="_blank"> <u className="text-green-300"><i>Mezovest</i></u></Link>, and
-              <Link href={"https://fress.app"} target="_blank"><u className="text-red-300"><i> Fress</i></u> </Link>
-              for the past <strong className="text-white">four</strong> years.
+            <p className="my-4 text-normal text-letter/60 md:w-4/5">
+              I've built products for startups like <Link href={"https://www.linkedin.com/company/jiggleng/"} className="underline text-letter/90" target="_blank">Jiggle</Link>, <Link href={"https://mezovest.com"} className="underline text-letter/90" target="_blank"> Mezovest</Link>, and
+              <Link href={"https://fress.app"} className="underline text-letter/90" target="_blank"> Fress </Link>
+              for the past <span className="underline underline-offset-4" >four</span> years.
             </p>
-            <p className="my-4 text-normal text-letter/80 md:w-4/5">
+            <p className="my-4 text-normal text-letter/60 md:w-4/5">
               In my spare time, I share about my experiences and learnings on my <Link href="https://beyondcode.hashnode.dev"> <u className="text-letter px-1 bg-projects">blog</u></Link>.
               I also write for other blogs as a <Link className="underline underline-offset-4" href={"https://samuelumoren.notion.site/samuelumoren/About-me-e8ca08bc4425495e8ec82ec20ad2f373"}>guest author.</Link>
             </p>
 
-            <p className="my-4 text-normal text-letter/80 md:w-4/5">
-              I'm currently open to new opportunities (also technical writing).
-              If you'd like to work with me, <Link className="underline underline-offset-4" href="https://calendly.com/d/4h8-zss-yc4/one-off-meeting">schedule a chat with me </Link>.
-              Or shoot me an <Link className="underline underline-offset-4" href="mailto:samuelumoren365@gmail.com"> email. </Link>
+            <p className="my-4 text-normal text-letter/60 md:w-4/5">
+              <span className="text-letter/90">I'm currently open to new opportunities (including technical writing roles). </span>
+              If you'd like to work with me, <Link className="underline underline-offset-4" href="https://calendly.com/d/4h8-zss-yc4/one-off-meeting">schedule a chat with me </Link>
+              or shoot me an <Link className="underline underline-offset-4" href="mailto:samuelumoren365@gmail.com"> email. </Link>
             </p>
 
             {/* Desktop Screen - Links */}
@@ -121,7 +119,7 @@ export default function Layout({ children }) {
                   </a>
 
                   <a
-                    href="hhttps://twitter.com/lamoureSparus"
+                    href="https://twitter.com/saameeey"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -129,7 +127,7 @@ export default function Layout({ children }) {
                   </a>
 
                   <a
-                    href="https://twitter.com/saameeey"
+                    href="https://linkedin.com/in/umoren"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -158,7 +156,7 @@ export default function Layout({ children }) {
 
             <div className="flex mt-2 gap-6">
               <a
-                href="https://github.com/lamouresparus"
+                href="https://github.com/Umoren"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -166,7 +164,7 @@ export default function Layout({ children }) {
               </a>
 
               <a
-                href="hhttps://twitter.com/lamoureSparus"
+                href="https://twitter.com/saameeey"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -174,7 +172,7 @@ export default function Layout({ children }) {
               </a>
 
               <a
-                href="https://ng.linkedin.com/in/loveotudor"
+                href="https://linkedin.com/in/umoren"
                 target="_blank"
                 rel="noopener noreferrer"
               >
