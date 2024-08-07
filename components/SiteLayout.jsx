@@ -33,7 +33,7 @@ export default function Layout({ children }) {
             </p>
 
             <p className="my-4 text-normal text-letter/60 md:w-4/5">
-              <span className="text-letter/90">I'm currently open to new opportunities (including technical writing roles). </span>
+              <span className="text-letter/90">I'm currently open to new opportunities (including developer relations/advocate roles). </span>
               If you'd like to work with me, <Link className="underline underline-offset-4" href="https://calendly.com/d/4h8-zss-yc4/one-off-meeting">schedule a chat with me </Link>
               or shoot me an <Link className="underline underline-offset-4" href="mailto:samuelumoren365@gmail.com"> email. </Link>
             </p>
@@ -65,7 +65,7 @@ export default function Layout({ children }) {
             {/* Mobile Screen - Links */}
             <div className="mt-12 mx-auto text-sm uppercase md:hidden text-letter">
               <ul>
-                <Link href="https://docs.google.com/document/d/137ZQlLzTkgx0IwvZ_oWWVOv9W0higk1OjKBV5jo4Kgk/edit?usp=sharing"
+                <Link href="bit.ly/umorensamuel"
                   className="border-white"
                 >
                   <li className="flex items-center gap-4 my-6 hover:animate-pulse cursor-pointer">
@@ -137,15 +137,7 @@ export default function Layout({ children }) {
               </div>
             </div>
 
-            {/* Desktop Screen - Footer */}
-            <footer>
-              <div className="hidden md:block mt-20 text-letter">
-                <p className="text-letter/50"> Design inspired by <Link className="text-letter/90" href="https://www.sarahdayan.dev/" >Sarah Dayan </Link> and
-                  <Link href="https://kadet.dev/" className="text-letter/90"> Collins Enebeli</Link>.
 
-                </p>
-              </div>
-            </footer>
           </div>
 
           {/* Desktop Screen only - Work */}
