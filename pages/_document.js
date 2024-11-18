@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="description" content="Samuel Umoren is a Front End Engineer with four years of experience and strong fundamentals in Front End technologies." />
+        <meta name="description" content="Samuel Umoren is a Software Engineer with five years of experience and strong fundamentals in Front End technologies." />
         <title> Samuel Umoren - Software Engineer </title>
       </Head>
       <body>

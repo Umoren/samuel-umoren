@@ -10,8 +10,7 @@ export default function Layout({ children }) {
     <>
       <main className="text-white bg-black min-h-screen">
         <div className="flex flex-col md:flex-row m-auto">
-          <div className="w-full md:w-1/2 xs:px-4 sp:px-8 px-8 pt-8 md:py-12 md:pl-20 md:fixed ">
-
+          <div className="w-full md:w-[60%] xs:px-4 sp:px-8 px-8 pt-8 md:py-12 md:pl-20 md:fixed">
             <h1 className=" text-3xl md:text-5xl lg:text-6xl mt-4 md:mt-0 text-letter font-bold tracking-tight leading-none">
               Samuel Umoren
             </h1>
@@ -19,17 +18,18 @@ export default function Layout({ children }) {
 
             <p className="my-4 text-normal text-letter/60 md:w-4/5">
 
-              <span className="text-bold text-normal text-letter">I'm a Front End Engineer</span> with four years of experience and strong fundamentals in Front End technologies.
+              <span className="text-bold text-normal text-letter">I'm a Software Engineer</span> with extensive experience in both development and technical documentation.
             </p>
 
             <p className="my-4 text-normal text-letter/60 md:w-4/5">
               I've built products for startups like <Link href={"https://www.linkedin.com/company/jiggleng/"} className="underline text-letter/90" target="_blank">Jiggle</Link>, <Link href={"https://mezovest.com"} className="underline text-letter/90" target="_blank"> Mezovest</Link>, and
-              <Link href={"https://fress.app"} className="underline text-letter/90" target="_blank"> Fress </Link>
-              for the past <span className="underline underline-offset-4" >four</span> years.
+              <Link href={"https://fress.app"} className="underline text-letter/90" target="_blank"> Fress </Link> and independently developed solutions that focus on automation, scalability, and excellent developer experience.
+              Working with technologies like React, Node.js, and AWS, I create applications that solve real problems - from AI-powered content generation to secure messaging systems.
             </p>
             <p className="my-4 text-normal text-letter/60 md:w-4/5">
-              In my spare time, I share about my experiences and learnings on my <Link href="https://beyondcode.hashnode.dev"> <u className="text-letter px-1 bg-projects">blog</u></Link>.
-              I also write for other blogs as a <Link className="underline underline-offset-4" href={"https://samuelumoren.notion.site/samuelumoren/About-me-e8ca08bc4425495e8ec82ec20ad2f373"}>guest author.</Link>
+              In my spare time, I share insights about JavaScript, DevOps, and infrastructure on my <Link href="https://beyondcode.hashnode.dev"> <u className="text-letter px-1 bg-projects">blog</u></Link> and other technical platforms.
+
+              I am also a full time Technical Writer. Check out my portfolio <Link className="underline underline-offset-4" href={"https://samuelumoren.notion.site/samuelumoren/About-me-e8ca08bc4425495e8ec82ec20ad2f373"}>here.</Link>
             </p>
 
             <p className="my-4 text-normal text-letter/60 md:w-4/5">
