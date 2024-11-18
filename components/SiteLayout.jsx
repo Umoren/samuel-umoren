@@ -10,30 +10,30 @@ export default function Layout({ children }) {
     <>
       <main className="text-white bg-black min-h-screen">
         <div className="flex flex-col md:flex-row m-auto">
-          <div className="w-full md:w-[60%] xs:px-4 sp:px-8 px-8 pt-8 md:py-12 md:pl-20 md:fixed">
-            <h1 className=" text-3xl md:text-5xl lg:text-6xl mt-4 md:mt-0 text-letter font-bold tracking-tight leading-none">
+          <div className="w-full md:w-[60%] xs:px-4 sp:px-8 px-8 pt-8 md:py-12 md:pl-20 md:fixed md:h-screen md:overflow-y-auto scrollbar-hide">
+            <h1 className=" text-3xl md:text-5xl lg:text-6xl mt-4 md:mt-0  font-bold tracking-tight leading-none">
               Samuel Umoren
             </h1>
-            <h3 className="text-lg md:text-2xl font-bold my-4 text-letter">Software Developer</h3>
+            <h3 className="text-lg md:text-2xl font-bold my-4 ">Software Developer</h3>
 
-            <p className="my-4 text-normal text-letter/60 md:w-4/5">
+            <p className="my-4 text-normal /60 md:w-4/5">
 
-              <span className="text-bold text-normal text-letter">I'm a Software Engineer</span> with extensive experience in both development and technical documentation.
+              <span className="text-bold text-normal ">I'm a Software Engineer</span> with extensive experience in both development and technical documentation.
             </p>
 
-            <p className="my-4 text-normal text-letter/60 md:w-4/5">
-              I've built products for startups like <Link href={"https://www.linkedin.com/company/jiggleng/"} className="underline text-letter/90" target="_blank">Jiggle</Link>, <Link href={"https://mezovest.com"} className="underline text-letter/90" target="_blank"> Mezovest</Link>, and
-              <Link href={"https://fress.app"} className="underline text-letter/90" target="_blank"> Fress </Link> and independently developed solutions that focus on automation, scalability, and excellent developer experience.
+            <p className="my-4 text-normal /60 md:w-4/5">
+              I've built products for startups like <Link href={"https://www.linkedin.com/company/jiggleng/"} className="underline /90" target="_blank">Jiggle</Link>, <Link href={"https://mezovest.com"} className="underline /90" target="_blank"> Mezovest</Link>, and
+              <Link href={"https://fress.app"} className="underline /90" target="_blank"> Fress </Link> and independently developed solutions that focus on automation, scalability, and excellent developer experience.
               Working with technologies like React, Node.js, and AWS, I create applications that solve real problems - from AI-powered content generation to secure messaging systems.
             </p>
-            <p className="my-4 text-normal text-letter/60 md:w-4/5">
-              In my spare time, I share insights about JavaScript, DevOps, and infrastructure on my <Link href="https://beyondcode.hashnode.dev"> <u className="text-letter px-1 bg-projects">blog</u></Link> and other technical platforms.
+            <p className="my-4 text-normal /60 md:w-4/5">
+              In my spare time, I share insights about JavaScript, DevOps, and infrastructure on my <Link href="https://beyondcode.hashnode.dev"> <u className=" px-1 bg-projects">blog</u></Link> and other technical platforms.
 
               I am also a full time Technical Writer. Check out my portfolio <Link className="underline underline-offset-4" href={"https://samuelumoren.notion.site/samuelumoren/About-me-e8ca08bc4425495e8ec82ec20ad2f373"}>here.</Link>
             </p>
 
-            <p className="my-4 text-normal text-letter/60 md:w-4/5">
-              <span className="text-letter/90">I'm currently open to new opportunities (including developer relations/advocate roles). </span>
+            <p className="my-4 text-normal /60 md:w-4/5">
+              <span className="/90">I'm currently open to new opportunities (including developer relations/advocate roles). </span>
               If you'd like to work with me, <Link className="underline underline-offset-4" href="https://calendly.com/d/4h8-zss-yc4/one-off-meeting">schedule a chat with me </Link>
               or shoot me an <Link className="underline underline-offset-4" href="mailto:samuelumoren365@gmail.com"> email. </Link>
             </p>
@@ -54,7 +54,7 @@ export default function Layout({ children }) {
             </div>
 
             {/* Mobile Screen - Links */}
-            <div className="mt-12 mx-auto text-sm uppercase md:hidden text-letter">
+            <div className="mt-12 mx-auto text-sm uppercase md:hidden ">
               <ul>
                 <Link href="bit.ly/umorensamuel"
                   className="border-white"
@@ -97,7 +97,7 @@ export default function Layout({ children }) {
 
             {/* Desktop Screen - Social Media */}
             <div className=" hidden md:block">
-              <div className="flex gap-6 text-letter">
+              <div className="flex gap-6 ">
 
 
                 <div className="flex mt-2 gap-6">
@@ -135,7 +135,7 @@ export default function Layout({ children }) {
           <div className="w-full md:w-1/2 px-8 md:p-20 md:ml-auto hidden sm:block">{children}</div>
 
           {/* Mobile Screen - Social Media */}
-          <div className="xs:my-8 sp:mt-16 mt-16 flex gap-6 md:hidden pl-8  text-letter">
+          <div className="xs:my-8 sp:mt-16 mt-16 flex gap-6 md:hidden pl-8  ">
 
             <div className="flex mt-2 gap-6">
               <a
