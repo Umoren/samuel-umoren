@@ -8,14 +8,14 @@ export default function Layout({ children }) {
   const router = useRouter();
   return (
     <>
-      <main className="text-white bg-black min-h-screen w-screen">
+      <main className="text-white bg-black min-h-screen">
         <div className="flex flex-col md:flex-row m-auto">
-          <div className="w-full md:w-1/2 xs:px-4 sp:px-8 px-8 pt-8 md:py-12 md:pl-20 md:fixed overflow-scroll">
+          <div className="w-full md:w-1/2 xs:px-4 sp:px-8 px-8 pt-8 md:py-12 md:pl-20 md:fixed ">
 
             <h1 className=" text-3xl md:text-5xl lg:text-6xl mt-4 md:mt-0 text-letter font-bold tracking-tight leading-none">
               Samuel Umoren
             </h1>
-            <h3 className="text-lg md:text-2xl font-bold my-4 text-letter">Software Developer - Frontend</h3>
+            <h3 className="text-lg md:text-2xl font-bold my-4 text-letter">Software Developer</h3>
 
             <p className="my-4 text-normal text-letter/60 md:w-4/5">
 
@@ -41,22 +41,13 @@ export default function Layout({ children }) {
             {/* Desktop Screen - Links */}
             <div className="hidden my-8 mx-auto text-sm uppercase md:block">
               <ul>
-                <Link href="/#work"
-                  className="border-white"
-                >
-                  <li className="flex items-center gap-4 my-6 hover:animate-pulse cursor-pointer">
-                    <span>01</span>
-                    <hr className="w-[2rem] bg-gray-300" />
-                    <span> Work</span>
-                  </li>
-                </Link>
 
                 <Link href="https://beyondcode.hashnode.dev">
 
                   <li className="flex items-center gap-4 my-6 hover:animate-pulse cursor-pointer">
-                    <span>02</span>
+                    <span>01</span>
                     <hr className="w-[3rem] bg-white" />
-                    <span> Articles</span>
+                    <span> Blog</span>
                   </li>
                 </Link>
               </ul>
@@ -105,7 +96,7 @@ export default function Layout({ children }) {
             </div>
 
             {/* Desktop Screen - Social Media */}
-            <div className="mt-8 hidden md:block">
+            <div className=" hidden md:block">
               <div className="flex gap-6 text-letter">
 
 
