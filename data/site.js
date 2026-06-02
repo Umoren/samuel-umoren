@@ -119,14 +119,14 @@ export const personalLinks = [
     meta: "Christian essays and reflections",
     href: "https://neverthelesspress.vercel.app/",
     description:
-      "Faith writing is part of my life, not a side personality. Nevertheless Press is the main home for that work.",
+      "Christian essays and reflections. This is the main home for that writing.",
   },
   {
     title: "Children's Day playlist",
     meta: "Spotify",
     href: "https://open.spotify.com/playlist/56uJqdKuWcBbx8P91nXYKj?si=0e435ca7c85547ca",
     description:
-      "A recent gospel playlist I used for a Children's Day party. It made the rounds, which made me very happy.",
+      "A recent gospel playlist from a Children's Day party.",
   },
   {
     title: "Medium essays",
@@ -147,9 +147,9 @@ export const personalLinks = [
 export const aboutSections = [
   {
     label: "Faith",
-    title: "I am a Christian, and I write from that place.",
+    title: "I am a Christian.",
     body:
-      "Some of my writing is technical. Some of it is Christian. I do not see those as competing lives. Faith shapes how I think about people, work, service, discipline, and what is worth giving attention to.",
+      "Some of my writing is technical. Some of it is Christian. Both are part of my life. I write about faith because it is how I make sense of people, service, discipline, and hope.",
     links: [
       {
         label: "Nevertheless Press",
@@ -169,13 +169,13 @@ export const aboutSections = [
     label: "Teaching",
     title: "I teach pre-teens in church.",
     body:
-      "I enjoy working with kids at that age because they are still open to new things. That stage can become the foundation for the rest of their lives. I remember myself at that age, so I take the work seriously.",
+      "I enjoy teaching that age group because they are still open to new things. A lot can take root there. I remember myself at that age, so I take the work seriously.",
   },
   {
     label: "Music",
     title: "I love gospel music, and I DJ.",
     body:
-      "Music is one of the ways I serve and connect with people. I care about songs that carry joy, memory, and meaning. I especially enjoy building playlists that work in real rooms, not just on paper.",
+      "Music is one of the ways I serve and connect with people. I care about songs that carry joy, memory, and meaning.",
     links: [
       {
         label: "Children's Day playlist",
@@ -193,12 +193,12 @@ export const aboutSections = [
 
 export const workPhilosophy = [
   "Do real work first. Let the work carry the story.",
-  "Explain things clearly because clarity is respect.",
-  "Use evidence. Do not dress guesses up as insight.",
+  "Explain things clearly. People should not have to fight your words.",
+  "Use evidence. Do not dress guesses up.",
   "Build with the tools you have. Better tools help, but they are not the work.",
   "Documentation is part of the product. If people cannot use it, it is not done.",
   "Research should survive a skeptical read.",
-  "AI is useful when it gives people leverage, not when it becomes theatre.",
+  "AI is useful when it gives people leverage.",
 ];
 
 export const writingGroups = [
