@@ -82,7 +82,7 @@ export default function About() {
               href={item.href}
               className="border border-zinc-200 bg-white px-4 py-4 transition hover:border-zinc-950"
             >
-              <div className="flex items-baseline justify-between gap-4">
+              <div className="flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
                 <h3 className="font-semibold text-zinc-950">{item.title}</h3>
                 <p className="text-sm text-zinc-500">{item.meta}</p>
               </div>
