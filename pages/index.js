@@ -1,6 +1,7 @@
 import Link from "next/link";
 import {
   focusAreas,
+  personalLinks,
   profileLinks,
   proofLinks,
   workHighlights,
@@ -121,6 +122,31 @@ export default function Home() {
           >
             View writing archive
           </Link>
+        </div>
+      </section>
+
+      <section className="grid gap-8 border-t border-zinc-200 pt-8 md:grid-cols-[220px_1fr]">
+        <div>
+          <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-zinc-500">
+            Also
+          </h2>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {personalLinks.map((item) => (
+            <a
+              key={item.href}
+              href={item.href}
+              className="border border-zinc-200 bg-white px-4 py-4 transition hover:border-zinc-950"
+            >
+              <div className="flex items-baseline justify-between gap-4">
+                <h3 className="font-semibold text-zinc-950">{item.title}</h3>
+                <p className="text-sm text-zinc-500">{item.meta}</p>
+              </div>
+              <p className="mt-2 text-[15px] leading-6 text-zinc-700">
+                {item.description}
+              </p>
+            </a>
+          ))}
         </div>
       </section>
     </div>

@@ -13,13 +13,16 @@ export default function Layout({ children }) {
       </Head>
       <div className="min-h-screen bg-stone-50 text-zinc-950">
         <header className="border-b border-zinc-200 bg-stone-50/95">
-          <nav className="mx-auto flex max-w-5xl items-center justify-between px-5 py-5 text-sm md:px-8">
+          <nav className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-5 py-5 text-sm md:px-8">
             <Link href="/" className="font-semibold tracking-tight">
               Samuel Umoren
             </Link>
-            <div className="flex items-center gap-4 text-zinc-600">
+            <div className="flex flex-wrap items-center gap-4 text-zinc-600">
               <Link href="/writing" className="hover:text-zinc-950">
                 Writing
+              </Link>
+              <Link href="/about" className="hover:text-zinc-950">
+                About
               </Link>
               <a href="/samuel-umoren-cv-2026.pdf" className="hover:text-zinc-950">
                 CV
