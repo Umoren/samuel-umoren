@@ -15,7 +15,7 @@ export default function Home() {
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.18em] text-zinc-500">
             Software Engineer
           </p>
-          <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-zinc-950 md:text-6xl">
+          <h1 className="max-w-3xl text-balance text-4xl font-semibold tracking-tight text-zinc-950 md:text-6xl">
             I build AI systems, documentation systems, and developer-facing products.
           </h1>
         </div>

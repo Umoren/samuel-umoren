@@ -7,7 +7,7 @@ export default function Writing() {
         <p className="mb-4 text-sm font-medium uppercase tracking-[0.18em] text-zinc-500">
           Writing
         </p>
-        <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-zinc-950 md:text-6xl">
+        <h1 className="max-w-3xl text-balance text-4xl font-semibold tracking-tight text-zinc-950 md:text-6xl">
           Technical writing, documentation work, and research notes.
         </h1>
         <p className="mt-6 max-w-2xl text-[15px] leading-7 text-zinc-700">

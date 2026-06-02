@@ -7,8 +7,8 @@ export default function About() {
         <p className="mb-4 text-sm font-medium uppercase tracking-[0.18em] text-zinc-500">
           About
         </p>
-        <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-zinc-950 md:text-6xl">
-          The work is not the whole story.
+        <h1 className="max-w-3xl text-balance text-4xl font-semibold tracking-tight text-zinc-950 md:text-6xl">
+          The work is not the whole&nbsp;story.
         </h1>
         <p className="mt-6 max-w-2xl text-[15px] leading-7 text-zinc-700">
           I am a software engineer, but I am not only a software engineer. I am
