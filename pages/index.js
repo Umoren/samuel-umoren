@@ -3,6 +3,7 @@ import {
   focusAreas,
   personalLinks,
   profileLinks,
+  projectHighlights,
   proofLinks,
   workHighlights,
 } from "../data/site";
@@ -36,6 +37,41 @@ export default function Home() {
               </a>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="grid gap-8 md:grid-cols-[220px_1fr]">
+        <div>
+          <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-zinc-500">
+            Projects
+          </h2>
+        </div>
+        <div className="grid gap-3">
+          {projectHighlights.map((item) => (
+            <article
+              key={item.title}
+              className="border border-zinc-200 bg-white px-4 py-4"
+            >
+              <div className="flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+                <h3 className="font-semibold text-zinc-950">{item.title}</h3>
+                <p className="text-sm text-zinc-500">{item.meta}</p>
+              </div>
+              <p className="mt-2 text-[15px] leading-6 text-zinc-700">
+                {item.description}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {item.links.map((link) => (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    className="rounded-full border border-zinc-300 px-3 py-1.5 text-sm text-zinc-700 transition hover:border-zinc-950 hover:text-zinc-950"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            </article>
+          ))}
         </div>
       </section>
 

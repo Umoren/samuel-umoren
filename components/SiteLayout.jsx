@@ -21,6 +21,9 @@ export default function Layout({ children }) {
               <Link href="/writing" className="hover:text-zinc-950">
                 Writing
               </Link>
+              <Link href="/provenance-layer" className="hover:text-zinc-950">
+                Provenance
+              </Link>
               <Link href="/about" className="hover:text-zinc-950">
                 About
               </Link>

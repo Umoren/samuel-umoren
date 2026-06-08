@@ -20,6 +20,10 @@ export const profileLinks = [
     href: "https://sammai.bearblog.dev/",
   },
   {
+    label: "Provenance",
+    href: "/provenance-layer",
+  },
+  {
     label: "About",
     href: "/about",
   },
@@ -62,10 +66,18 @@ export const workHighlights = [
 
 export const proofLinks = [
   {
+    title: "Agent Runtime Inspector",
+    meta: "OSS AI provenance devtool",
+    href: "https://github.com/Umoren/agent-runtime-inspector",
+    description:
+      "Local devtool for connecting AI coding agents through an MCP proxy and inspecting the provenance of every tool call.",
+  },
+  {
     title: "Sift",
     meta: "AI platform work",
     href: "https://getsift.co/",
-    description: "AI agents for social care, engagement, and voice-of-customer workflows.",
+    description:
+      "AI platform work across knowledge graphs, decision traces, permission-aware retrieval, and agent workflows.",
   },
   {
     title: "Klysera",
@@ -105,12 +117,93 @@ export const proofLinks = [
   },
 ];
 
+export const projectHighlights = [
+  {
+    title: "Agent Runtime Inspector",
+    meta: "Open-source AI agent devtool",
+    href: "https://github.com/Umoren/agent-runtime-inspector",
+    description:
+      "A local provenance layer for AI coding agents. ARI connects MCP-capable clients through a proxy, forwards tool calls to Merge Agent Handler, and records the context, action, model, and audit path in a dashboard.",
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/Umoren/agent-runtime-inspector",
+      },
+      {
+        label: "Provenance page",
+        href: "/provenance-layer",
+      },
+    ],
+  },
+];
+
 export const focusAreas = [
+  "Provenance layers for AI agents",
   "AI systems and agent workflows",
   "Documentation systems as product surfaces",
   "Developer tools and integration guides",
   "Technical research and evidence systems",
   "Frontend and product engineering",
+];
+
+export const provenancePrinciples = [
+  {
+    title: "Source context",
+    body:
+      "The system records which source messages, documents, tickets, or transcripts fed the AI workflow.",
+  },
+  {
+    title: "Permission boundary",
+    body:
+      "The system carries access rules forward when raw source data becomes a summary, decision, answer, or tool argument.",
+  },
+  {
+    title: "Runtime path",
+    body:
+      "The system records which tools were visible, which tool was called, what arguments were sent, and what result came back.",
+  },
+  {
+    title: "Audit record",
+    body:
+      "The system leaves a readable trail that an engineer, operator, or security reviewer can inspect after the run.",
+  },
+];
+
+export const provenanceWork = [
+  {
+    title: "Sift decision traces",
+    meta: "Private platform work",
+    href: "https://getsift.co/",
+    body:
+      "At Sift, I worked on systems that traced derived decisions back to the source context that produced them. The trace model carried source IDs, source types, timestamps, authors, channels, and roles such as Proposal, Context, Objection, Validation, Pivot, and Resolution.",
+    points: [
+      "Replaced flat underlying-discussion data with chronological decision traces.",
+      "Connected decisions to source messages, conversations, and meeting transcripts through graph relationships.",
+      "Scoped decision access by organization, user, and private-channel membership.",
+      "Treated provenance as part of permissioning, because private source content can leak through derived AI knowledge.",
+    ],
+  },
+  {
+    title: "Agent Runtime Inspector",
+    meta: "Public OSS project",
+    href: "https://github.com/Umoren/agent-runtime-inspector",
+    body:
+      "ARI applies the same provenance idea to AI coding agents. It sits between an MCP-capable agent client and Merge Agent Handler, forwards tool calls, and records what happened in a local dashboard.",
+    points: [
+      "Records the tool inventory exposed to the agent.",
+      "Records the selected tool, arguments, result, latency, and errors.",
+      "Separates the run into context path, action path, and model path.",
+      "Supports mock traces, scripted Merge examples, and an MCP proxy path for local agent clients.",
+    ],
+  },
+];
+
+export const provenanceApplications = [
+  "AI coding agents that call GitHub, Linear, Slack, Jira, or internal tools",
+  "Enterprise agents that need per-user tool access and audit trails",
+  "Knowledge assistants where answers must preserve source permissions",
+  "Developer tools that need to explain what an agent changed and why",
+  "AI infrastructure teams building observability, governance, or integration layers",
 ];
 
 export const personalLinks = [
@@ -348,9 +441,10 @@ export const writingGroups = [
       },
       {
         title: "The AI integration layer is becoming the new backend",
-        source: "Draft",
-        href: "https://sammai.bearblog.dev/",
-        note: "Essay direction on connectors, tools, and agent infrastructure.",
+        source: "X Article",
+        href: "https://x.com/saameeey/status/2062229308878581772?s=20",
+        note:
+          "Category piece on context sync, permission-aware retrieval, tool execution, model routing, observability, governance, and auditability.",
       },
       {
         title: "Research OS with depth",
