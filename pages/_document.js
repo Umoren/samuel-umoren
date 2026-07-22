@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="theme-color" content="#fafaf9" />
+        <meta name="theme-color" content="#f3f0e8" />
       </Head>
       <body>
         <Main />

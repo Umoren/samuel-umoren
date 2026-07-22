@@ -16,12 +16,15 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        inter: ['Inter', "sans-serif"]
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        editorial: ['Georgia', 'Cambria', 'Times New Roman', 'serif'],
       },
       colors: {
-        "layout": '#F4EEE0',
-        "projects": '#363333',
-        "letter": '#F4EEE0'
+        paper: '#F3F0E8',
+        ink: '#171714',
+        muted: '#57564F',
+        faint: '#77746B',
+        accent: '#A3452F',
       },
       padding: {
         '40': '25px'

@@ -1,149 +1,109 @@
-export const profileLinks = [
+export const careerSignals = [
   {
-    label: "Email",
-    href: "mailto:samuelumoren365@gmail.com",
+    value: "7 years",
+    label: "software, data systems, and applied AI",
   },
   {
-    label: "GitHub",
-    href: "https://github.com/Umoren",
+    value: "200+",
+    label: "published technical articles",
   },
   {
-    label: "LinkedIn",
-    href: "https://linkedin.com/in/umoren",
-  },
-  {
-    label: "CV",
-    href: "/samuel-umoren-cv-2026.pdf",
-  },
-  {
-    label: "Blog",
-    href: "https://sammai.bearblog.dev/",
-  },
-  {
-    label: "Provenance",
-    href: "/provenance-layer",
-  },
-  {
-    label: "About",
-    href: "/about",
+    value: "4 programs",
+    label: "research tracks led at Klysera",
   },
 ];
 
-export const workHighlights = [
+export const selectedWork = [
   {
+    number: "01",
     company: "Sift",
     role: "AI Engineer",
-    period: "2025 - Present",
-    href: "https://getsift.co/",
-    description:
-      "Building AI platform systems for social and community operations: knowledge graphs, intent routing, deterministic tool execution, response contracts, and Slack/dashboard surfaces.",
+    period: "Jun 2025 – Jun 2026",
+    title: "Making AI answers measurable, traceable, and permission-aware.",
+    summary:
+      "I owned systems around model behaviour: evaluation, semantic classification, retrieval quality, evidence traces, access controls, and the ingestion pipelines feeding them.",
+    proof: [
+      "Led an observability layer for queries, feedback, retrieved context, confidence, embedding activity, and end-to-end latency.",
+      "Architected an organisation-specific semantic classifier with sentence-transformer embeddings, confidence thresholds, and deterministic fallbacks.",
+      "Connected AI answers to exact Slack and GitHub evidence through hybrid retrieval, decision traces, sufficiency gates, and private-channel controls.",
+    ],
+    links: [],
   },
   {
+    number: "02",
     company: "Klysera",
-    role: "R&D Lead",
-    period: "2025",
-    href: "https://klysera.ai/",
-    description:
-      "Built research systems for a talent acceleration company, including engineering hiring research and evidence workflows for turning messy market questions into usable product and content assets.",
+    role: "Research & Development Lead (Contract)",
+    period: "Sep 2025 – May 2026",
+    title: "Turning a company thesis into research, product direction, and tooling.",
+    summary:
+      "I defined the core intellectual property behind the “Ideal Klysera Engineer” and built the research function that made the claim useful across curriculum, positioning, and engineering career frameworks.",
+    proof: [
+      "Led four research programs with explicit evidence gates and reusable workflows.",
+      "Compared 200 current engineering roles from 36 companies with a 50-role historical baseline using reproducible pandas pipelines.",
+      "Built a Next.js and Supabase analytics product for skill gaps, role coverage, taxonomy views, and curriculum decisions.",
+    ],
+    links: [],
   },
   {
-    company: "Cilia / Ory",
-    role: "Technical Documentation Engineer",
-    period: "2025",
-    href: "https://www.ory.com/docs/welcome",
-    description:
-      "Redesigned Ory welcome and quickstart documentation for new adopters of OAuth2, identities, and permissions, with Docusaurus, Playwright, and CI/CD quality workflows.",
-  },
-  {
-    company: "Freelance documentation engineering",
-    role: "Technical writer and docs engineer",
-    period: "2020 - 2025",
-    href: "https://earthly.dev/blog/docker-init-nodejs/",
-    description:
-      "Published 200+ developer articles and documentation projects across Earthly, Kosli, Speedscale, Soshace, Draft.dev, Section.io, DEV, and Hashnode.",
-  },
-];
-
-export const proofLinks = [
-  {
-    title: "Agent Runtime Inspector",
-    meta: "OSS AI provenance devtool",
-    href: "https://github.com/Umoren/agent-runtime-inspector",
-    description:
-      "Local devtool for connecting AI coding agents through an MCP proxy and inspecting the provenance of every tool call.",
-  },
-  {
-    title: "Sift",
-    meta: "AI platform work",
-    href: "https://getsift.co/",
-    description:
-      "AI platform work across knowledge graphs, decision traces, permission-aware retrieval, and agent workflows.",
-  },
-  {
-    title: "Klysera",
-    meta: "R&D work",
-    href: "https://klysera.ai/",
-    description: "Research-backed talent acceleration work and market-facing assets.",
-  },
-  {
-    title: "Ory documentation",
-    meta: "Documentation engineering",
-    href: "https://www.ory.com/docs/welcome",
-    description: "Welcome and quickstart documentation for an open-source identity platform.",
-  },
-  {
-    title: "Using Docker Init in Node.js",
-    meta: "Earthly",
-    href: "https://earthly.dev/blog/docker-init-nodejs/",
-    description: "Practical Docker guide for a high-intent developer query.",
-  },
-  {
-    title: "Implementing Backstage: Core Components",
-    meta: "Kosli",
-    href: "https://www.kosli.com/blog/implementing-backstage-2-using-the-core-features/",
-    description: "End-to-end Backstage guide with working implementation context.",
-  },
-  {
-    title: "MonoConnect SDK docs",
-    meta: "Documentation system",
-    href: "https://sammydocs.mintlify.app/content/index",
-    description: "Mintlify documentation site with structured framework guides.",
-  },
-  {
-    title: "Documentation portfolio",
-    meta: "Selected case studies",
-    href: "https://samuel-umoren-documentation-engineer.vercel.app/",
-    description: "A focused archive of documentation projects, case studies, and philosophy.",
-  },
-];
-
-export const projectHighlights = [
-  {
-    title: "Agent Runtime Inspector",
-    meta: "Open-source AI agent devtool",
-    href: "https://github.com/Umoren/agent-runtime-inspector",
-    description:
-      "A local provenance layer for AI coding agents. ARI connects MCP-capable clients through a proxy, forwards tool calls to Merge Agent Handler, and records the context, action, model, and audit path in a dashboard.",
+    number: "03",
+    company: "Cortex MIPs Working Group",
+    role: "Protocol Researcher",
+    period: "Jun 2026 – Present",
+    title: "Reproducible experiments for Monad Improvement Proposals.",
+    summary:
+      "I turn protocol claims into explicit hypotheses, Testnet evidence, automated harnesses, and regression fixtures that another engineer can inspect and rerun.",
+    proof: [
+      "Established a reusable research lab across MIPs rather than a one-off experiment.",
+      "Isolated an environment-dependent Foundry compatibility boundary and converted it into a regression fixture.",
+    ],
     links: [
       {
-        label: "GitHub",
-        href: "https://github.com/Umoren/agent-runtime-inspector",
+        label: "View the MIP research lab",
+        href: "https://github.com/Cortex-XYZ/monad-mip-lab",
+      },
+    ],
+  },
+  {
+    number: "04",
+    company: "Mono Connect.js",
+    role: "Independent documentation project",
+    period: "2024",
+    title: "Rebuilding an SDK README around the developer's integration path.",
+    summary:
+      "I turned a long package README into a searchable documentation site with a working quickstart, framework guides, API references, reauthorisation, direct debit, and clear client/server boundaries.",
+    proof: [
+      "Mapped the documentation to account linking, framework setup, events, methods, and advanced flows.",
+      "Built dedicated React, Angular, and Next.js integration guides instead of making developers translate one generic example.",
+    ],
+    links: [
+      {
+        label: "Read the Mono Connect.js docs",
+        href: "https://sammydocs.mintlify.app/content/index",
       },
       {
-        label: "Provenance page",
-        href: "/provenance-layer",
+        label: "View the source",
+        href: "https://github.com/Umoren/mono-connectjs-docs",
       },
     ],
   },
 ];
 
-export const focusAreas = [
-  "Provenance layers for AI agents",
-  "AI systems and agent workflows",
-  "Documentation systems as product surfaces",
-  "Developer tools and integration guides",
-  "Technical research and evidence systems",
-  "Frontend and product engineering",
+export const writingHighlights = [
+  {
+    title: "Current notes on AI systems and engineering",
+    source: "sammai.bearblog.dev",
+    href: "https://sammai.bearblog.dev/",
+  },
+  {
+    title: "Using Docker Init in Node.js",
+    source: "Earthly",
+    href: "https://earthly.dev/blog/docker-init-nodejs/",
+  },
+  {
+    title: "Why Fastify is a better Node.js framework than Express",
+    source: "Soshace",
+    href: "https://soshace.com/2021/01/25/why-fastify-is-a-better-nodejs-framework-for-your-next-project-compared-to-express/",
+  },
 ];
 
 export const provenancePrinciples = [
