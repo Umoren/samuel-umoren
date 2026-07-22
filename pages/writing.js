@@ -8,12 +8,11 @@ export default function Writing() {
           Writing
         </p>
         <h1 className="max-w-3xl text-balance text-4xl font-semibold tracking-tight text-zinc-950 md:text-6xl">
-          Technical writing, documentation work, and research notes.
+          Notes from the work, plus an archive of what I have taught.
         </h1>
         <p className="mt-6 max-w-2xl text-[15px] leading-7 text-zinc-700">
-          Current essays live on Bearblog. This page keeps the broader archive
-          readable: documentation systems, DevOps, platform engineering,
-          JavaScript, AI, and research workflows.
+          I publish current essays on Bear. This page collects my writing on AI,
+          documentation, DevOps, platform engineering, and JavaScript.
         </p>
       </section>
 

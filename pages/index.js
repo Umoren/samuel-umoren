@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Samuel Umoren — Machine Learning Engineer</title>
+        <title>Samuel Umoren | Machine Learning Engineer</title>
         <meta
           name="description"
           content="Samuel Umoren is a machine learning engineer working on model observability, evaluation, retrieval, data systems, and reliable LLM products."
@@ -17,13 +17,13 @@ export default function Home() {
           <div>
             <p className="eyebrow">Machine learning engineer</p>
             <h1 className="font-editorial mt-6 max-w-4xl text-[clamp(3.2rem,8vw,7.25rem)] leading-[0.92] tracking-[-0.055em] text-ink">
-              I build the systems that make models observable, traceable, and useful.
+              I build machine learning systems you can measure, trace, and improve.
             </h1>
             <p className="mt-8 max-w-2xl text-lg leading-8 text-muted md:text-xl md:leading-9">
-              My work spans semantic classification, retrieval, evaluation,
-              data pipelines, research systems, and developer documentation. I
-              own the path from an ambiguous problem to the system and evidence
-              that resolves it.
+              I work across classification, retrieval, evaluation, data
+              pipelines, and LLM products. I take ownership from problem
+              definition through delivery, including the tests and traces
+              needed to see what the model is doing.
             </p>
             <div className="mt-10 flex flex-wrap gap-x-7 gap-y-3 text-sm font-semibold">
               <a className="text-link" href="#work">
@@ -60,12 +60,10 @@ export default function Home() {
             <p className="eyebrow">Selected work</p>
             <div>
               <h2 className="font-editorial max-w-3xl text-4xl leading-tight tracking-[-0.035em] text-ink md:text-5xl">
-                Systems I led from definition through delivery.
+                Work I led from definition through delivery.
               </h2>
               <p className="mt-5 max-w-2xl text-base leading-7 text-muted">
-                Each project started with a different question. The common work
-                was deciding what needed to exist, building it, and leaving a
-                result another person could inspect or use.
+                I define the problem, build the system, and show how it performs.
               </p>
             </div>
           </div>
@@ -151,7 +149,7 @@ export default function Home() {
           <p className="eyebrow">Contact</p>
           <div className="mt-6 grid gap-8 md:grid-cols-[1fr_auto] md:items-end">
             <h2 className="font-editorial max-w-4xl text-4xl leading-tight tracking-[-0.035em] text-ink md:text-6xl">
-              Building an ML or AI product that needs strong systems ownership?
+              Need an ML engineer who can own the model and the system around it?
             </h2>
             <a
               href="mailto:samuelumoren365@gmail.com"

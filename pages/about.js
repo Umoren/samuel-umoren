@@ -8,13 +8,13 @@ export default function About() {
           About
         </p>
         <h1 className="max-w-3xl text-balance text-4xl font-semibold tracking-tight text-zinc-950 md:text-6xl">
-          The work is not the whole&nbsp;story.
+          There is more to me than work.
         </h1>
         <p className="mt-6 max-w-2xl text-[15px] leading-7 text-zinc-700">
-          I am a software engineer, but I am not only a software engineer. I am
-          a Christian, a Barcelona fan, a gospel music person, a DJ, a teacher
-          for pre-teens in church, and someone who thinks a lot about work,
-          clarity, and service.
+          I am a machine learning engineer. I am also a Christian, a Barcelona
+          fan, a gospel music person, a DJ, and a teacher for pre-teens in
+          church. Those parts of my life shape how I think about work, clarity,
+          and service.
         </p>
       </section>
 

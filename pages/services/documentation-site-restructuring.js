@@ -1,59 +1,50 @@
 import Head from "next/head";
 
 const problems = [
-  "Docs that grew organically without a clear structure.",
-  "Quickstarts that stop before a developer reaches a working integration.",
-  "Concepts, guides, API references, and examples mixed into the same flow.",
-  "Product decisions hidden across scattered pages, old examples, and support answers.",
-  "Developers needing support because the docs do not explain the real workflow.",
-  "AI and devtool docs that do not clearly explain context, tools, permissions, SDKs, or integration patterns.",
+  "The quickstart stops before the first working integration.",
+  "Examples no longer match the product or SDK.",
+  "Concepts, guides, references, and examples are mixed together.",
+  "Important setup details are scattered across old pages and support answers.",
+  "Engineers keep answering questions the docs should already cover.",
 ];
 
 const work = [
-  "Documentation audits",
-  "Information architecture cleanup",
-  "Quickstart redesign",
-  "Tutorial and guide restructuring",
-  "Developer journey mapping",
-  "Content gap analysis",
-  "API and docs flow improvements",
-  "Examples and demo repo alignment",
-  "Migration or onboarding path cleanup",
+  "Audit the docs against the current product.",
+  "Map the path to a developer's first working integration.",
+  "Redesign quickstarts, guides, and API navigation.",
+  "Rewrite the pages causing the most friction.",
+  "Align examples and demo code with the documented flow.",
 ];
 
 const process = [
-  "Inspect the current docs and product surface.",
-  "Identify the developer's first useful outcome.",
-  "Map the existing docs against that journey.",
-  "Separate concepts, guides, references, examples, and troubleshooting.",
-  "Rewrite or restructure the highest-friction pages.",
-  "Validate the new flow by walking through it like a developer.",
+  "Inspect the docs, product, SDK, and existing examples.",
+  "Choose the first useful outcome a developer should reach.",
+  "Map the current docs against that path and mark the gaps.",
+  "Rewrite and restructure the pages blocking the path.",
+  "Test the new flow from a clean setup.",
 ];
 
 const deliverables = [
-  "Docs audit report",
-  "Restructured docs outline",
-  "Improved quickstart flow",
-  "Rewritten or revised key pages",
-  "Tutorial and demo recommendations",
-  "Developer onboarding map",
-  "Content backlog with priorities",
+  "A short audit with the main sources of friction",
+  "A revised information architecture",
+  "A tested quickstart and onboarding path",
+  "Rewritten high-priority pages",
+  "A ranked backlog for the remaining work",
 ];
 
 const audiences = [
-  "Devtool startups",
-  "API companies",
+  "Developer tool and API companies",
   "AI infrastructure teams",
   "SDK and platform teams",
   "Technical founders whose docs no longer match the product",
-  "Teams where engineers answer the same documentation questions repeatedly",
+  "Teams whose engineers keep answering the same setup questions",
 ];
 
 const proof = [
-  "I combine software engineering, developer education, and technical writing.",
-  "I have written 200+ developer-facing technical articles and documentation projects.",
-  "I understand APIs, SDKs, AI tools, frontend/product engineering, and docs systems.",
-  "I care about clarity, structure, examples, and developer trust.",
+  "Built Mono Connect.js docs for React, Angular, and Next.js, with API references and advanced integration flows.",
+  "Redesigned Ory welcome and quickstart documentation for identity, OAuth2, and permissions.",
+  "Published more than 200 technical articles for software developers.",
+  "Write and test the code paths I document.",
 ];
 
 export default function DocumentationSiteRestructuring() {
@@ -76,8 +67,8 @@ export default function DocumentationSiteRestructuring() {
             Documentation Site Restructuring
           </h1>
           <p className="mt-7 max-w-2xl text-[15px] leading-8 text-zinc-700">
-            I help developer-facing teams turn scattered docs into clear paths
-            developers can actually follow.
+            I turn scattered developer docs into a clear path from setup to a
+            working integration.
           </p>
           <div className="mt-7 flex flex-wrap gap-2">
             <a
@@ -87,29 +78,27 @@ export default function DocumentationSiteRestructuring() {
               Ask about a docs restructuring sprint
             </a>
             <a
-              href="https://www.ory.com/docs/welcome"
+              href="https://sammydocs.mintlify.app/content/index"
               className="border border-zinc-300 px-4 py-2 text-sm font-medium text-zinc-700 transition hover:border-zinc-950 hover:text-zinc-950"
             >
-              See Ory docs work
+              See the Mono Connect.js docs
             </a>
           </div>
         </section>
 
         <ServiceSection title="The problem">
           <p className="max-w-3xl text-[15px] leading-7 text-zinc-700">
-            Documentation breaks when the product changes faster than the docs
-            structure. Developers arrive with a specific job, but the site gives
-            them scattered concepts, old examples, missing setup steps, or API
-            references with no path into a working integration.
+            Documentation breaks when the product changes and the structure does
+            not. A developer arrives with one job to do, then has to piece the
+            workflow together from old examples and missing setup steps.
           </p>
           <ListGrid items={problems} />
         </ServiceSection>
 
         <ServiceSection title="What I do">
           <p className="max-w-3xl text-[15px] leading-7 text-zinc-700">
-            Documentation restructuring makes the docs match the product model,
-            the developer journey, and the integration path a real user has to
-            complete.
+            I rebuild the docs around the path a developer has to complete in
+            the product.
           </p>
           <ListGrid items={work} columns />
         </ServiceSection>
@@ -138,10 +127,9 @@ export default function DocumentationSiteRestructuring() {
         <ServiceSection title="Why me">
           <div className="space-y-5">
             <p className="max-w-3xl text-[15px] leading-7 text-zinc-700">
-              I sit at the overlap of engineering, developer education, and
-              technical writing. I can read the product surface, test the
-              workflow, find the missing conceptual pieces, and turn that into a
-              documentation system a developer can use.
+              I approach documentation as an engineer. I inspect the product,
+              run the integration, find where the explanation breaks, and write
+              the missing path.
             </p>
             <ListGrid items={proof} />
           </div>
@@ -150,9 +138,8 @@ export default function DocumentationSiteRestructuring() {
         <section className="border-t border-zinc-200 pt-8">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <p className="max-w-2xl text-[15px] leading-7 text-zinc-700">
-              If your docs no longer explain how the product works, I can help
-              with a docs restructuring sprint, docs audit, or developer
-              onboarding cleanup.
+              If your docs no longer match the product, I can audit the gaps and
+              rebuild the path to a working integration.
             </p>
             <a
               href="mailto:samuelumoren365@gmail.com?subject=Documentation%20site%20restructuring"

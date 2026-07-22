@@ -13,7 +13,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Samuel Umoren — Machine Learning Engineer</title>
+        <title>Samuel Umoren | Machine Learning Engineer</title>
         <meta
           name="description"
           content="Samuel Umoren is a machine learning engineer working on model observability, evaluation, retrieval, data systems, and reliable LLM products."

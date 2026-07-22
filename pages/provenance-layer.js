@@ -25,9 +25,9 @@ export default function ProvenanceLayer() {
             I build systems that show where AI outputs and agent actions came from.
           </h1>
           <p className="mt-7 max-w-2xl text-[15px] leading-8 text-zinc-700">
-            My recent work sits around one system boundary: source context becomes
-            generated knowledge, tool calls, product decisions, and audit logs.
-            That path needs provenance.
+            When an AI system turns source data into an answer or tool call, the
+            product should record the path. I build that record across source
+            context, permissions, runtime activity, and the final output.
           </p>
           <div className="mt-7 flex flex-wrap gap-2">
             <a
@@ -115,9 +115,8 @@ export default function ProvenanceLayer() {
         <section className="border-t border-zinc-200 pt-8">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <p className="max-w-2xl text-[15px] leading-7 text-zinc-700">
-              If your team is building agents that touch customer systems, I can
-              help with provenance, permission-aware retrieval, tool execution,
-              integration architecture, and developer-facing explanation.
+              I can help your team trace model outputs, preserve source
+              permissions, and inspect agent tool calls.
             </p>
             <a
               href="mailto:samuelumoren365@gmail.com"

@@ -1,7 +1,7 @@
 export const careerSignals = [
   {
     value: "7 years",
-    label: "software, data systems, and applied AI",
+    label: "building software and applied AI systems",
   },
   {
     value: "200+",
@@ -18,14 +18,14 @@ export const selectedWork = [
     number: "01",
     company: "Sift",
     role: "AI Engineer",
-    period: "Jun 2025 – Jun 2026",
-    title: "Making AI answers measurable, traceable, and permission-aware.",
+    period: "Jun 2025 to Jun 2026",
+    title: "Making model behaviour visible from query to answer.",
     summary:
-      "I owned systems around model behaviour: evaluation, semantic classification, retrieval quality, evidence traces, access controls, and the ingestion pipelines feeding them.",
+      "I owned how models classified questions, retrieved context, and exposed the evidence behind each answer. I also built the evaluation and access-control layers around that path.",
     proof: [
-      "Led an observability layer for queries, feedback, retrieved context, confidence, embedding activity, and end-to-end latency.",
+      "Led the observability layer for queries and answers, recording feedback, retrieved context, confidence, embedding activity, and latency.",
       "Architected an organisation-specific semantic classifier with sentence-transformer embeddings, confidence thresholds, and deterministic fallbacks.",
-      "Connected AI answers to exact Slack and GitHub evidence through hybrid retrieval, decision traces, sufficiency gates, and private-channel controls.",
+      "Linked AI answers to exact Slack and GitHub evidence through hybrid retrieval, decision traces, sufficiency gates, and private-channel controls.",
     ],
     links: [],
   },
@@ -33,13 +33,13 @@ export const selectedWork = [
     number: "02",
     company: "Klysera",
     role: "Research & Development Lead (Contract)",
-    period: "Sep 2025 – May 2026",
-    title: "Turning a company thesis into research, product direction, and tooling.",
+    period: "Sep 2025 to May 2026",
+    title: "Defining the research behind the Ideal Klysera Engineer.",
     summary:
-      "I defined the core intellectual property behind the “Ideal Klysera Engineer” and built the research function that made the claim useful across curriculum, positioning, and engineering career frameworks.",
+      "I defined the intellectual property behind the Ideal Klysera Engineer, then built the research operation that connected the claim to curriculum, product positioning, and engineering career frameworks.",
     proof: [
-      "Led four research programs with explicit evidence gates and reusable workflows.",
-      "Compared 200 current engineering roles from 36 companies with a 50-role historical baseline using reproducible pandas pipelines.",
+      "Led four research programs, each with a defined question, evidence threshold, and review process.",
+      "Analysed 200 current engineering roles from 36 companies against a 50-role historical baseline using reproducible pandas pipelines.",
       "Built a Next.js and Supabase analytics product for skill gaps, role coverage, taxonomy views, and curriculum decisions.",
     ],
     links: [],
@@ -48,13 +48,13 @@ export const selectedWork = [
     number: "03",
     company: "Cortex MIPs Working Group",
     role: "Protocol Researcher",
-    period: "Jun 2026 – Present",
-    title: "Reproducible experiments for Monad Improvement Proposals.",
+    period: "Jun 2026 to present",
+    title: "Testing MIP claims with reproducible experiments.",
     summary:
-      "I turn protocol claims into explicit hypotheses, Testnet evidence, automated harnesses, and regression fixtures that another engineer can inspect and rerun.",
+      "I turn claims in Monad Improvement Proposals into hypotheses, Testnet experiments, and automated test harnesses that other engineers can rerun.",
     proof: [
-      "Established a reusable research lab across MIPs rather than a one-off experiment.",
-      "Isolated an environment-dependent Foundry compatibility boundary and converted it into a regression fixture.",
+      "Built a research lab that supports experiments across multiple MIPs.",
+      "Isolated an environment-dependent Foundry compatibility issue and turned it into a regression test.",
     ],
     links: [
       {
@@ -68,9 +68,9 @@ export const selectedWork = [
     company: "Mono Connect.js",
     role: "Independent documentation project",
     period: "2024",
-    title: "Rebuilding an SDK README around the developer's integration path.",
+    title: "Turning Mono Connect.js into documentation developers can follow.",
     summary:
-      "I turned a long package README into a searchable documentation site with a working quickstart, framework guides, API references, reauthorisation, direct debit, and clear client/server boundaries.",
+      "I turned a long package README into a searchable documentation site. It now covers the first working integration, framework setup, API references, reauthorisation, direct debit, and client/server boundaries.",
     proof: [
       "Mapped the documentation to account linking, framework setup, events, methods, and advanced flows.",
       "Built dedicated React, Angular, and Next.js integration guides instead of making developers translate one generic example.",
@@ -135,7 +135,7 @@ export const provenanceWork = [
     meta: "Private platform work",
     href: "https://getsift.co/",
     body:
-      "At Sift, I worked on systems that traced derived decisions back to the source context that produced them. The trace model carried source IDs, source types, timestamps, authors, channels, and roles such as Proposal, Context, Objection, Validation, Pivot, and Resolution.",
+      "At Sift, I traced derived decisions back to their source context. Each trace recorded source IDs, timestamps, authors, channels, and the role each message played in the decision.",
     points: [
       "Replaced flat underlying-discussion data with chronological decision traces.",
       "Connected decisions to source messages, conversations, and meeting transcripts through graph relationships.",
@@ -148,7 +148,7 @@ export const provenanceWork = [
     meta: "Public OSS project",
     href: "https://github.com/Umoren/agent-runtime-inspector",
     body:
-      "ARI applies the same provenance idea to AI coding agents. It sits between an MCP-capable agent client and Merge Agent Handler, forwards tool calls, and records what happened in a local dashboard.",
+      "ARI brings the same idea to AI coding agents. It sits between an MCP-capable agent client and Merge Agent Handler, forwards tool calls, and records each run in a local dashboard.",
     points: [
       "Records the tool inventory exposed to the agent.",
       "Records the selected tool, arguments, result, latency, and errors.",
@@ -249,16 +249,13 @@ export const workPhilosophy = [
   "Explain things clearly. People should not have to fight your words.",
   "Use evidence. Do not dress guesses up.",
   "Build with the tools you have. Better tools help, but they are not the work.",
-  "Documentation is part of the product. If people cannot use it, it is not done.",
-  "Research should survive a skeptical read.",
-  "AI is useful when it gives people leverage.",
+  "Make the work inspectable. Research should survive a skeptical read, and documentation should help people use what you built.",
 ];
 
 export const writingGroups = [
   {
     name: "Active blog",
-    description:
-      "Current notes and essays live on Bear. umoren.dev keeps the index and professional archive.",
+    description: "New writing on Bear, plus links to my earlier archives.",
     items: [
       {
         title: "sammai.bearblog.dev",
@@ -288,7 +285,7 @@ export const writingGroups = [
   },
   {
     name: "Documentation and platform engineering",
-    description: "Long-form guides and documentation systems for developer tools.",
+    description: "Guides and documentation for developer tools.",
     items: [
       {
         title: "Ory documentation",
@@ -343,7 +340,7 @@ export const writingGroups = [
   },
   {
     name: "DevOps and infrastructure",
-    description: "Practical guides for Docker, testing, APIs, and infrastructure workflows.",
+    description: "Practical guides for Docker, testing, APIs, and infrastructure.",
     items: [
       {
         title: "Using Docker Init in Node.js",
@@ -367,7 +364,7 @@ export const writingGroups = [
   },
   {
     name: "JavaScript and frontend",
-    description: "Earlier writing on JavaScript, Node.js, frontend frameworks, and web development.",
+    description: "Earlier work on JavaScript, Node.js, and frontend development.",
     items: [
       {
         title: "Why Fastify is Better Than Express",
@@ -391,7 +388,7 @@ export const writingGroups = [
   },
   {
     name: "AI and research notes",
-    description: "Current direction: applied AI engineering, research systems, and agentic software.",
+    description: "Current work on applied AI, research, and agents.",
     items: [
       {
         title: "You do not need a MacBook to do applied AI engineering",
